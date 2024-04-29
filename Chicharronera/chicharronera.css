@@ -1,0 +1,76 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   transition: 2s all ease;
+}
+
+body{
+text-align: center;
+height: 70pc;
+background: rgb(219,0,255);
+  background: linear-gradient(0deg, rgba(219,0,255,1) 0%, rgba(6,0,8,1) 100%);
+color: white;
+font-family: Georgia ;
+
+}
+
+
+
+ #n1,#n2,#n3{
+   background: purple;
+   width: 300px;
+   margin: auto;
+   border: 5px double violet;
+}
+
+ #vn1,#vn2,#vn3{
+   margin:auto;
+   width: 90px;
+   height: 35px;
+   border: 1px dashed purple;
+   box-shadow: 0 0 20px magenta;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top:10px 
+}
+
+#resultado{
+   margin:auto;
+   width: 300px;
+   height: 100px;
+   background: purple;
+   border: 3px ridge magenta;
+   box-shadow: 0 0 20px violet;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top:20px 
+}
+
+ #ecuacion{
+   margin:auto;
+   width: 300px;
+   height: 60px;
+   background: purple;
+   border: 3px ridge magenta;
+   box-shadow: 0 0 20px violet;
+   margin-bottom: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top:20px 
+   
+}
+#img{
+  margin:auto;
+  
+   width: 300px;
+   height: 150px;
+   border: 10px double purple;
+   box-shadow: 0 0 20px magenta;
+   margin-bottom: 20px;
+   margin-top:20px 
+   
+}

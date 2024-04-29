@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Raiz cuadrada</title>
+  <link rel="stylesheet" href="../boostrapph/bootstrap.min.css">
+  
+  <style>
+    #resultado{
+      font-size: 60px;
+      
+    }
+    
+    #vnum{
+font-size: 50px;
+    }
+    
+    
+    
+  </style>
+</head>
+
+
+<body class="text-center">
+  <table class="table table-info table-bordered table-hover">
+      <nav class="navbar bg-dark" data-bs-theme="dark">
+        <div class="container-fluid text-center">
+        
+          <h1 class="navbar-brand m-auto">RAIZ CUADRADA</h1>
+        </div>
+      </nav>
+    <tr>
+      
+      <td>Numero <input type="range" min="1" max="100" value="1" class="form-control" id="numero"></td>
+    </tr>
+    <tr>
+    <td>  <div id="vnum">
+      </div></td>
+      </tr>
+    <tr>
+      <td><button id="borrar" class="btn btn-danger">Borrar</button></td>
+    </tr>
+  </table>
+  
+   <div id="resultado">
+    </div>
+    <a href="../Menu/m.html"><Button class="btn btn-dark">MENU</Button></a>
+
+  <script src="raiz.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: 2s all ease;
+ }
+ 
+ body{
+    color:white;
+    height: 100PC;
+    background: rgb(219,0,255);
+    background: linear-gradient(0deg, rgba(219,0,255,1) 0%, rgba(6,0,8,1) 100%);
+         font-family: Georgia ;
+ }
+
+ .progress-circle {
+            
+    width: 400px;
+    height: 400px;
+    position: relative;
+  }
+  .progress-circle svg {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+  
+    
+  }
+  .progress-circle circle {
+    
+    fill: none;
+    stroke-width: 10 ;
+    stroke: #ffffff; /* Color de fondo de la barra */
+    
+    
+}
+input[type=range]{
+    background: transparent;
+    border: 2px dotted purple;
+    background: violet;
+    
+}
+  .progress-circle .progress-bar {
+
+    fill: none;
+    stroke-width: 5;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.3s;
+   
+  }
+  .progress-circle .progress-text {
+    fill: #ffffff; /* Color del texto */
+    font-size: 20px;
+    text-anchor: middle;
+    dominant-baseline: middle;
+  }
+  
+  h2,#vcalculo,#vingles,#vecologia,#vfisica,#vmodulo{
+    font-size: 40px;
+font-family:  monospace;
+  }
+
+ 

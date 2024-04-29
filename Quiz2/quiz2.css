@@ -1,0 +1,32 @@
+@font-face {
+    font-family: CURSIVA;
+    src: url(../FONT/Pacifico-Regular.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: 2s all ease;
+ }
+ 
+ body{
+ text-align: center;
+ height: 100pc;
+ background:url(/IMGC/FONDO.jpg);
+ color: white;
+ }
+
+ h1,h3{
+    font-family: CURSIVA;
+    text-shadow: 2px 3px 2px purple;
+ }
+
+
+ p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 3px 2px magenta;
+
+}
+ 

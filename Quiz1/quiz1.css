@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: 2s all ease;
+ }
+ 
+ body{
+ text-align: center;
+ height: 30pc;
+ background: rgb(219,0,255);
+ background: linear-gradient(0deg, rgba(219,0,255,1) 0%, rgba(6,0,8,1) 100%);
+color: white;
+ font-family: Georgia ;
+ color: white;
+
+ }

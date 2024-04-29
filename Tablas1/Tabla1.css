@@ -1,0 +1,56 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   transition: 2s all ease;
+}
+
+body{
+text-align: center;
+background: rgb(219,0,255);
+  background: linear-gradient(0deg, rgba(219,0,255,1) 0%, rgba(6,0,8,1) 100%);
+  color: white;
+height: 100pc;
+}
+
+ #fila{
+   background: mediumpurple;
+   width: 300px;
+   margin: auto;
+}
+#columna{
+background: mediumpurple;
+   width: 300px;
+   margin: auto;
+}
+
+ #vfila{
+   margin:auto;
+   width: 90px;
+   height: 35px;
+   background: black;
+   border: 1px dashed black;
+   box-shadow: 0 0 20px peachpuff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top:10px 
+}
+
+ #vcolumna{
+   margin:auto;
+   width: 90px;
+   height: 35px;
+   background: black;
+   border: 1px dashed black;
+   box-shadow: 0 0 20px peachpuff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top:10px 
+}
+
+
+
+
+

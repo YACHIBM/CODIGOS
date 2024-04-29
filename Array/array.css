@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: 2s all ease;
+ }
+ 
+ body{
+ text-align: center;
+ 
+ height: 100pc;
+ background: url(/IMGC/FONDO.jpg);
+ color: white;
+ }
+
+ #items{
+    margin:auto;
+    width: 300px;
+    border: 1px dashed purple;
+    box-shadow: 0 0 20px magenta;
+    font-size: 15px;
+    margin-top:10px 
+ }
+ #tam{
+    margin:auto;
+    width: 50px;
+    height: 50px;
+    border: 1px dashed purple;
+    box-shadow: 0 0 20px magenta;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-top:10px 
+    
+ }
+
+ input[type="text"]{
+    background: darkorchid;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+border: 2px dotted purple;
+box-shadow: 0 0 15px magenta;
+}
